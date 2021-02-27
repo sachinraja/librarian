@@ -11,7 +11,7 @@ A discord bot that displays projects from a multitude of platforms.
     * Example: `search npm typescript`
 
 ## Valid Platforms
-All libraries.io platforms are valid for use with this bot.
+All [libraries.io](https://libraries.io) platforms are valid for use with this bot.
   * alcatraz
   * atom
   * bower
