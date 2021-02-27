@@ -1,0 +1,51 @@
+{
+  "name": "librarian",
+  "version": "1.0.0",
+  "description": "A discord bot that displays projects from a multitude of platforms.",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "npm run build && node build/index.js",
+    "build": "babel src --out-dir build --extensions '.ts'",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xCloudzx/librarian.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot"
+  ],
+  "author": "Sachin Raja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xCloudzx/librarian/issues"
+  },
+  "homepage": "https://github.com/xCloudzx/librarian#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "github:discordjs/commando",
+    "dotenv": "^8.2.0",
+    "libraries.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/node": "^14.14.31",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "babel-plugin-file-loader": "^2.0.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.2"
+  }
+}
