@@ -1,7 +1,7 @@
 {
   "name": "librarian",
   "version": "1.0.0",
-  "description": "A discord bot that displays projects from a multitude of platforms.",
+  "description": "A discord bot that displays packages from a multitude of platforms such as npm.",
   "main": "build/index.js",
   "scripts": {
     "dev": "npm run build && node build/index.js",

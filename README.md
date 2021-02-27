@@ -3,7 +3,7 @@
   librarian
 </h1>
 
-A discord bot that displays projects from a multitude of platforms.
+A discord bot that displays packages from a multitude of platforms such as npm.
 
 ## Commands
   * The prefix is `lib`.
